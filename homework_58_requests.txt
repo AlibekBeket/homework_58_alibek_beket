@@ -1,7 +1,6 @@
 1)import datetime
 Issue.objects.filter(updated_at__gte=datetime.datetime.now() - datetime.timedelta(days=31), status=Status.objects.get(status_name='Done'))
-2)Issue.objects.filter(type=Type.objects.get(type_name='Bug'), status=Status.objects.get(status_name='In Progress'))
-Issue.objects.filter(type=Type.objects.get(type_name='Task'), status=Status.objects.get(status_name='New'))
+2)Issue.objects.filter(type=Type.objects.get(type_name='Bug'), status=Status.objects.get(status_name='In Progress')) & Issue.objects.filter(type=Type.objects.get(type_name='Task'), status=Status.objects.get(status_name='New'))
 3)Issue.objects.filter(type=Type.objects.get(type_name='Bug')).exclude(status=Status.objects.get(status_name='Done')) | Issue.objects.filter(summary__icontains='bug').exclude(status=Status.objects.get(status_name='Done'))
 4)Issue.objects.values('id', 'summary', 'type', 'status')
 5)from django.db.models import F
