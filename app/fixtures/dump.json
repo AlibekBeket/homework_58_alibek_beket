@@ -1,133 +1,5 @@
 [
 {
-  "model": "issue_tracker.status",
-  "pk": 1,
-  "fields": {
-    "status_name": "New"
-  }
-},
-{
-  "model": "issue_tracker.status",
-  "pk": 2,
-  "fields": {
-    "status_name": "In Progress"
-  }
-},
-{
-  "model": "issue_tracker.status",
-  "pk": 3,
-  "fields": {
-    "status_name": "Done"
-  }
-},
-{
-  "model": "issue_tracker.type",
-  "pk": 1,
-  "fields": {
-    "type_name": "Task"
-  }
-},
-{
-  "model": "issue_tracker.type",
-  "pk": 2,
-  "fields": {
-    "type_name": "Bug"
-  }
-},
-{
-  "model": "issue_tracker.type",
-  "pk": 3,
-  "fields": {
-    "type_name": "Enhancement"
-  }
-},
-{
-  "model": "issue_tracker.issue",
-  "pk": 1,
-  "fields": {
-    "summary": "Adding random user selection functionality",
-    "description": "",
-    "status": 2,
-    "created_at": "2023-03-03T10:04:06.448Z",
-    "updated_at": "2023-03-03T10:52:06.039Z",
-    "type": [
-      1,
-      2,
-      3
-    ]
-  }
-},
-{
-  "model": "issue_tracker.issue",
-  "pk": 2,
-  "fields": {
-    "summary": "Fix a bug in which unnecessary data is displayed",
-    "description": "Advertisers study how people learn so that they can 'teach' them to respond to their advertising. They want us to be interested, to try something, and then to do it again. These are the elements of learning: interest, experience and repetition.",
-    "status": 3,
-    "created_at": "2023-03-03T10:06:07.270Z",
-    "updated_at": "2023-03-03T10:51:37.722Z",
-    "type": [
-      3
-    ]
-  }
-},
-{
-  "model": "issue_tracker.issue",
-  "pk": 3,
-  "fields": {
-    "summary": "Reduce output latency",
-    "description": "Advertisers study how people learn so that they can 'teach' them to respond to their advertising. They want us to be interested, to try something, and then to do it again. These are the elements of learning: interest, experience and repetition.",
-    "status": 2,
-    "created_at": "2023-03-03T10:06:22.596Z",
-    "updated_at": "2023-03-03T10:06:22.596Z",
-    "type": [
-      3
-    ]
-  }
-},
-{
-  "model": "issue_tracker.issue",
-  "pk": 4,
-  "fields": {
-    "summary": "Styling the home page",
-    "description": "",
-    "status": 1,
-    "created_at": "2023-03-03T10:06:33.754Z",
-    "updated_at": "2023-03-03T10:06:33.754Z",
-    "type": [
-      3
-    ]
-  }
-},
-{
-  "model": "issue_tracker.issue",
-  "pk": 5,
-  "fields": {
-    "summary": "Add new statuses for tasks",
-    "description": "Advertisers study how people learn so that they can 'teach' them to respond to their advertising. They want us to be interested, to try something, and then to do it again. These are the elements of learning: interest, experience and repetition.",
-    "status": 3,
-    "created_at": "2023-03-03T10:06:49.849Z",
-    "updated_at": "2023-03-03T10:06:49.849Z",
-    "type": [
-      1
-    ]
-  }
-},
-{
-  "model": "issue_tracker.issue",
-  "pk": 6,
-  "fields": {
-    "summary": "Say hello for ur computer",
-    "description": "Hello computer",
-    "status": 1,
-    "created_at": "2023-03-03T10:38:39.898Z",
-    "updated_at": "2023-03-03T10:38:39.898Z",
-    "type": [
-      3
-    ]
-  }
-},
-{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -467,6 +339,272 @@
     "date_joined": "2023-03-03T10:02:37.132Z",
     "groups": [],
     "user_permissions": []
+  }
+},
+{
+  "model": "issue_tracker.status",
+  "pk": 1,
+  "fields": {
+    "status_name": "New"
+  }
+},
+{
+  "model": "issue_tracker.status",
+  "pk": 2,
+  "fields": {
+    "status_name": "In Progress"
+  }
+},
+{
+  "model": "issue_tracker.status",
+  "pk": 3,
+  "fields": {
+    "status_name": "Done"
+  }
+},
+{
+  "model": "issue_tracker.type",
+  "pk": 1,
+  "fields": {
+    "type_name": "Task"
+  }
+},
+{
+  "model": "issue_tracker.type",
+  "pk": 2,
+  "fields": {
+    "type_name": "Bug"
+  }
+},
+{
+  "model": "issue_tracker.type",
+  "pk": 3,
+  "fields": {
+    "type_name": "Enhancement"
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 1,
+  "fields": {
+    "summary": "Adding random user selection functionality",
+    "description": "",
+    "status": 2,
+    "created_at": "2023-03-03T10:04:06.448Z",
+    "updated_at": "2023-03-07T04:22:24.584Z",
+    "type": [
+      2
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 2,
+  "fields": {
+    "summary": "Fix a bug in which unnecessary data is displayed",
+    "description": "Advertisers study how people learn so that they can 'teach' them to respond to their advertising. They want us to be interested, to try something, and then to do it again. These are the elements of learning: interest, experience and repetition.",
+    "status": 3,
+    "created_at": "2023-03-03T10:06:07.270Z",
+    "updated_at": "2023-03-03T11:23:10.071Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 4,
+  "fields": {
+    "summary": "Styling the home page",
+    "description": "",
+    "status": 2,
+    "created_at": "2023-03-03T10:06:33.754Z",
+    "updated_at": "2023-03-03T11:43:51.927Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 5,
+  "fields": {
+    "summary": "Add new statuses for tasks",
+    "description": "Advertisers study how people learn so that they can 'teach' them to respond to their advertising. They want us to be interested, to try something, and then to do it again. These are the elements of learning: interest, experience and repetition.",
+    "status": 3,
+    "created_at": "2023-03-03T10:06:49.849Z",
+    "updated_at": "2023-03-03T10:06:49.849Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 12,
+  "fields": {
+    "summary": "Summery",
+    "description": "Summery",
+    "status": 1,
+    "created_at": "2023-03-03T13:38:12.638Z",
+    "updated_at": "2023-03-07T04:21:17.189Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 14,
+  "fields": {
+    "summary": "Print \"Hello world\"",
+    "description": "Print \"Hello world\"",
+    "status": 3,
+    "created_at": "2023-03-07T04:22:00.100Z",
+    "updated_at": "2023-03-07T04:22:00.100Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 15,
+  "fields": {
+    "summary": "Make a logo rebranding",
+    "description": "Issue Tracker rebranding",
+    "status": 1,
+    "created_at": "2023-03-07T04:24:40.976Z",
+    "updated_at": "2023-03-07T04:24:40.976Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 16,
+  "fields": {
+    "summary": "The function of correspondence with other developers",
+    "description": "Chat",
+    "status": 3,
+    "created_at": "2023-03-07T04:27:37.703Z",
+    "updated_at": "2023-03-07T04:27:37.703Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 17,
+  "fields": {
+    "summary": "Fix bug of pressed button",
+    "description": "",
+    "status": 2,
+    "created_at": "2023-03-07T04:29:53.943Z",
+    "updated_at": "2023-03-07T04:29:53.943Z",
+    "type": [
+      2
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 18,
+  "fields": {
+    "summary": "Fly to america",
+    "description": "fly to america to sign a contract",
+    "status": 2,
+    "created_at": "2023-03-07T12:12:06.305Z",
+    "updated_at": "2023-03-07T12:12:06.305Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 19,
+  "fields": {
+    "summary": "Check if there is a bug in data validation",
+    "description": "London is a famous and historic city. It is the capital of England in the United Kingdom. The city is quite popular for international tourism because London is home to one of the oldest-standing monarchies in the western hemisphere. Rita and Joanne recently traveled to London. They were very excited for their trip because this was their first journey overseas from the United States.",
+    "status": 3,
+    "created_at": "2023-03-07T12:13:02.558Z",
+    "updated_at": "2023-03-07T12:20:24.207Z",
+    "type": [
+      2
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 20,
+  "fields": {
+    "summary": "Create a new server in Kazakhstan",
+    "description": "Create a new server in Kazakhstan",
+    "status": 1,
+    "created_at": "2023-03-07T12:14:32.345Z",
+    "updated_at": "2023-03-07T12:14:38.421Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 21,
+  "fields": {
+    "summary": "Improve the appearance of the site",
+    "description": "",
+    "status": 2,
+    "created_at": "2023-03-07T12:15:28.672Z",
+    "updated_at": "2023-03-07T12:15:28.672Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 22,
+  "fields": {
+    "summary": "Create a new comment table",
+    "description": "Create a new comment table for clients.",
+    "status": 3,
+    "created_at": "2023-03-07T12:16:30.125Z",
+    "updated_at": "2023-03-07T12:18:42.033Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 23,
+  "fields": {
+    "summary": "Create a new comment page",
+    "description": "Create a new comment page",
+    "status": 2,
+    "created_at": "2023-03-07T12:17:23.364Z",
+    "updated_at": "2023-03-07T12:19:21.187Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "issue_tracker.issue",
+  "pk": 24,
+  "fields": {
+    "summary": "Make the appearance of the page with comments more simple and convenient",
+    "description": "Make the appearance of the page with comments more simple and convenient",
+    "status": 1,
+    "created_at": "2023-03-07T12:18:10.206Z",
+    "updated_at": "2023-03-07T12:19:03.670Z",
+    "type": [
+      3
+    ]
   }
 }
 ]
